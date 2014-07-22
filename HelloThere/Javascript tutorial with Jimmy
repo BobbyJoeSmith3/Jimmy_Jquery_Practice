@@ -1,0 +1,33 @@
+Javascript tutorial with Jimmy
+
+HTML is the structure of the page
+CSS is the style of the page
+Javascript is the behavior of the page
+
+Node JS is a server side language using JS. There is a camp that believes that we can and should move to start writing everything in Javascript.
+
+Check out the website: javascriptissexy .com
+
+2) How to include javascript in your web app:
+-Include a script tag at the bottom of your html body
+
+3) Javascript vs. jQuery
+jQuery is a library of javascript. It bundles together javascript function.
+
+4) How to use jQuery
+jQuery pattern has a few components.
+
+The short hand for turning something into a jQuery object is by putting it within the $. Once something is turned into a jQuery object, it will recognize a bunch of different functions for jQuery.
+
+First, identify the group of html elements that you want to attach the behavior too. You select elements with '.' or '#' or 'p'
+		$('#myBtn')
+
+Second, listen for the action or event of the user. 
+		$('#myBtn').on('click')
+
+Third, attach an action or behavior upon the occurence of the event.
+		$('#myBtn').on('click', function(){
+				alert('yo');
+			} );
+
+
